@@ -1,7 +1,6 @@
-import { book } from "../index.js";
-import div from "./div.js";
+import div from './div.js';
 
-export const createRemove = (id) => {
+const createRemove = (id) => {
   const btnRemove = document.createElement('button');
   btnRemove.id = `${id}`;
   btnRemove.type = 'button';
@@ -11,7 +10,7 @@ export const createRemove = (id) => {
   return btnRemove;
 };
 
-export const addBookToList = (book) => {
+const addBookToList = (book) => {
   const bookItemDiv = div('div');
   bookItemDiv.className = `book-item item${book.id}`;
   const titleDiv = div('div', `"${book.title}" by ${book.author}`);
@@ -21,14 +20,4 @@ export const addBookToList = (book) => {
   return { bookItemDiv, btnRemove };
 };
 
-const removeContent = (text) => {
-  const element = document.querySelector(text);
-  element.remove();
-};
-
-const removeBook = (btn) => {
-  btn.addEventListener('click', (event) => {
-    book.removeBook(Number(event.target.id));
-    removeContent(`.item${event.target.id}`);
-  });
-};
+export default addBookToList;
