@@ -10,7 +10,7 @@ export default class Book {
   }
 
   setLocalStorage(data) {
-    this.localStorage.setItem('books-data', JSON.stringify(data))
+    this.localStorage.setItem('books-data', JSON.stringify(data));
   }
 
   addBook(bookDetails) {
@@ -19,7 +19,7 @@ export default class Book {
     data.push(bookDetails);
     this.setLocalStorage(data);
   }
-  
+
   removeBook(id) {
     const data = this.getLocalStorage().filter((e) => e.id !== id);
     this.setLocalStorage(data);
