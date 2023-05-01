@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 > This project is called AWESOME BOOKS. It is based on implementing a add and remove feature on the website, and storing the data in local storage.
 
-**[AWESOME BOOKS]** is a website that is used test the knowledge of adding and removing books on the website.
+**[AWESOME BOOKS]** 
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 

@@ -32,7 +32,7 @@
 
 # 📖 SWING DANCE STYLES AND STEPS LIBRARY <a name="about-project"></a>
 
-This is the Awesome Books (ES6) Project for the 2nd block of module 2 at Microverse
+This is the Awesome Books (ES6) Project for the 2nd block of module 2 at Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
