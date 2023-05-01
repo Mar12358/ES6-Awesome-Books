@@ -2,6 +2,7 @@ import Book from './modules/book.js';
 import div from './modules/div.js';
 import addBookToList from './modules/bookControllers.js';
 import emptyValue from './modules/emptyValue.js';
+import { DateTime } from './modules/luxon.js';
 
 const book = new Book();
 
@@ -15,7 +16,7 @@ const removeContent = (text) => {
   const element = document.querySelector(text);
   element.remove();
 };
-export const removeBook = (btn) => {
+const removeBook = (btn) => {
   btn.addEventListener('click', (event) => {
     book.removeBook(Number(event.target.id));
     removeContent(`.item${event.target.id}`);
@@ -79,19 +80,6 @@ links.forEach((link) => {
   });
 });
 
-const currentDate = new Date();
+const now = DateTime.now().toFormat('MMMM d, yyyy \'at\' h:mm a');
 
-const options = {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  hour: 'numeric',
-  minute: 'numeric',
-  hour12: true,
-};
-
-const formattedDate = currentDate.toLocaleString('en-US', options);
-
-document.querySelector('.time').innerHTML = formattedDate;
-
-export default book;
+document.querySelector('.time').innerHTML = now;
