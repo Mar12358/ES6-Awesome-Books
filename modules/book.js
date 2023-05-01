@@ -3,24 +3,24 @@ export default class Book {
     this.localStorage = localStorage;
   }
 
-  getLocalStorage() {
+  getLocalStorage = () => {
     const savedBookData = this.localStorage.getItem('books-data');
     const data = savedBookData ? JSON.parse(savedBookData) : [];
     return data;
   }
 
-  setLocalStorage(data) {
+  setLocalStorage = (data) => {
     this.localStorage.setItem('books-data', JSON.stringify(data));
   }
 
-  addBook(bookDetails) {
+  addBook = (bookDetails) => {
     const data = this.getLocalStorage();
     bookDetails.id = data.length + 1;
     data.push(bookDetails);
     this.setLocalStorage(data);
   }
 
-  removeBook(id) {
+  removeBook= (id) => {
     const data = this.getLocalStorage().filter((e) => e.id !== id);
     this.setLocalStorage(data);
   }
