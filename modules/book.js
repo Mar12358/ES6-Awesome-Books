@@ -20,7 +20,7 @@ export default class Book {
     this.setLocalStorage(data);
   }
 
-  removeBook= (id) => {
+  removeBook = (id) => {
     const data = this.getLocalStorage().filter((e) => e.id !== id);
     this.setLocalStorage(data);
   }
