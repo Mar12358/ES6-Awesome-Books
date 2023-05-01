@@ -1,37 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <img src="logo.jpg" alt="logo" width="250"  height="auto" />
   <br/>
-
-  <!-- <h3><b>Microverse README Template</b></h3> -->
-
+  <h1><b>Awesome Books</b></h1>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -40,6 +13,7 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Presentation](#presentation)  
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -52,98 +26,102 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [AWESOME BOOKS] <a name="about-project"></a>
+# 📖 SWING DANCE STYLES AND STEPS LIBRARY <a name="about-project"></a>
 
-> This project is called AWESOME BOOKS. It is based on implementing a add and remove feature on the website, and storing the data in local storage.
+This is the Awesome Books (ES6) Project for the 2nd block of module 2 at Microverse
 
-**[AWESOME BOOKS]** is a website that is used test the knowledge of adding and removing books on the website.
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With <a name="HTML and CSS"></a>
+### Tech Stack <a name="tech-stack"></a>
 
-### Tech Stack <a name="Front end"></a>
-
-> This is a desk-top browser website.
+<details>
+  <summary>Text Editor</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+  </ul>
+</details>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JS</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+<details>
+  <summary>Style</summary>
+  <ul>
+    <li><a href="https://lenguajecss.com/">CSS</a></li>
+  </ul>
+</details>
 
-### Key Features
 
-- **[Data is stored in local storage]**
-- **[Data can be retrieved from local storage]**
+### Key Features <a name="key-features"></a>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="https://waelelsafty07.github.io/Awesome-books/"></a>
-
-- [[Live Demo Link](https://waelelsafty07.github.io/Awesome-books/)](#)
+- **List Section**
+- **Add new book Section**
+- **Contact Section**
+- **Usage of ES6**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Try it with <a href="https://mar12358.github.io/ES6-Awesome-Books/">gh-pages</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Presentation <a name="presentation"></a>
+
+Coming Soon...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-- A browser that supports html5 and css3
+- Editor
+- Web browser
+- GitHub
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Example commands:
-
+To clone this repository to your local machine, open a terminal and select desired folder:
 ```sh
-  cd my-folder
-  git clone https://github.com/waelelsafty07/Awesome-books.git
+  cd awesome-books
+```
+Clone:
+```sh
+  git clone https://github.com/Mar12358/ES6-Awesome-Books.git
 ```
 
--
 
 ### Install
+N/A
 
-Install this project with:
 
-- Clone the code into your machine and run test in an editor of your choice(E.g VScode).
 
 ### Usage
+- To visualize the project, open it by launching the Live Server plugging in visual studio code.
 
-Opening the index.html with your browser
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+<br>
 
-## 👥 Author <a name="authors">Wael Elsafty</a>
-
-👤 **Wael Elsafty**
-
-- GitHub: [@githubhandle](https://github.com/waelelsafty07)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/waelelsafty07/)
-
-👤 **George D. Kruah**
-
-- GitHub: [@dfizzkruah93](https://github.com/dfizzkruah93)
-- LinkedIn: [george-d-kruah-2775ab180](https://linkedin.com/in/george-d-kruah-2775ab180)
-- Twitter: [@DKruah](https://github.com/Kruah)
 
 👤 **Martín Ezequiel González**
 
@@ -151,44 +129,54 @@ Opening the index.html with your browser
 - Twitter: [@MarezegonZ](https://twitter.com/MarezegonZ)
 - LinkedIn: [Martin Ezequiel Gonzalez](https://www.linkedin.com/in/martin-ezequiel-gonzalez-30a413260/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create dynamic navigation to different pages.]**
+- **Improve Style**
+- **Add Description**
+- **Link to Google Search of the Book**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Feel free to check the [issues page](https://github.com/katfogy/Awesome_books/issues).
+Contributions are welcome!
+
+Feel free to check the [issues page](https://github.com/Mar12358/ES6-Awesome-Books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+Nothing can stop success!
 
-If you like this project, please give it a star, and if you would love to tell me ways to improve it, contact me on LinkedIn or Twitter. It will be a pleasure to hear from you.
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse community for this opportunity to learn new things.
+Thanks to all Microverse Team. &hearts;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+## ❓ FAQ <a name="faq"></a>
 
-<!-- LICENSE -->
+
+- **Are there such things as impossible things?**
+
+  - ¡No! Only work to be done
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
